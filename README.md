@@ -24,14 +24,14 @@ why each piece exists, not just that it exists.
 
 | Param | Value |
 |---|---|
-| Parameters | ~<!-- e.g. 10-14M --> M |
-| `n_embd` | <!-- e.g. 384 --> |
-| `n_head` | <!-- e.g. 6 --> |
-| `n_layer` | <!-- e.g. 6 --> |
-| `block_size` | <!-- e.g. 256 --> |
-| `vocab_size` | <!-- e.g. 65 (char level) --> |
-| Tokenizer | <!-- char level / BPE --> |
-| Dataset | <!-- e.g. tiny Shakespeare --> |
+| Parameters | ~14.3M |
+| `n_embd` | 384 |
+| `n_head` | 8 |
+| `n_layer` | 8 |
+| `block_size` | 256 |
+| `vocab_size` | 65 (char level) |
+| Tokenizer | char level |
+| Dataset | tiny Shakespeare |
 | Hardware | Trained on Apple Silicon (MPS backend) |
 
 ## What's actually inside
